@@ -3161,7 +3161,7 @@
 		<Value>Actions</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.About">
-		<Value>About MadbootNova</Value>
+		<Value>About Smartstore</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Acl.AvailableFor.Hint">
 		<Value>Select customer roles who can access the entity. For all inactive roles, this record is hidden.</Value>

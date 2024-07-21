@@ -3,7 +3,7 @@
 	<Import Project="..\Smartstore.Build\Smartstore.Common.props" />
 	
 	<PropertyGroup>
-		<RootNamespace>MadbootNova.Web</RootNamespace>
+		<RootNamespace>Smartstore.Web</RootNamespace>
 	</PropertyGroup>
   
 	<ItemGroup>
@@ -31,7 +31,7 @@
 
 	<ItemGroup>
 		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-			<_Parameter1>MadbootNova.Web.Tests</_Parameter1>
+			<_Parameter1>Smartstore.Web.Tests</_Parameter1>
 		</AssemblyAttribute>
 	</ItemGroup>
 

@@ -12,7 +12,7 @@
 	</PropertyGroup>
 
     <PropertyGroup>
-		<Product>MadbootNova</Product>
+		<Product>Smartstore</Product>
 		<Copyright>Copyright © MadbootNova AG</Copyright>
 		<Company>MadbootNova AG</Company>
 		<Authors>MadbootNova AG</Authors>
@@ -20,7 +20,7 @@
 		<FileVersion>5.1.0.0</FileVersion>
 		<InformationalVersion>5.1.0.0</InformationalVersion>
 		<PackageProjectUrl>https://smartstore.com/</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/smartstore/MadbootNova</RepositoryUrl>
+		<RepositoryUrl>https://github.com/smartstore/Smartstore</RepositoryUrl>
 		<RepositoryType>Git</RepositoryType>
 	</PropertyGroup>
 

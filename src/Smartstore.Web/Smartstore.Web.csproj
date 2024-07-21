@@ -8,7 +8,7 @@
 		<UserSecretsId>b35c0f56-dfa8-4120-b29b-a677578afcd1</UserSecretsId>
 		<CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
 		<RuntimeIdentifiers>win-x64; win-x86; linux-x64; osx-x64</RuntimeIdentifiers>
-        <ProvideApplicationPartFactoryAttributeTypeName>MadbootNova.Engine.Modularity.ApplicationParts.HostRazorAssemblyPartFactory, MadbootNova</ProvideApplicationPartFactoryAttributeTypeName>
+        <ProvideApplicationPartFactoryAttributeTypeName>Smartstore.Engine.Modularity.ApplicationParts.HostRazorAssemblyPartFactory, Smartstore</ProvideApplicationPartFactoryAttributeTypeName>
 		<!--<PublishReadyToRun>true</PublishReadyToRun>-->
 	</PropertyGroup>
 
@@ -100,7 +100,7 @@
 
     <ItemGroup>
 		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-			<_Parameter1>MadbootNova.Web.Tests</_Parameter1>
+			<_Parameter1>Smartstore.Web.Tests</_Parameter1>
 		</AssemblyAttribute>
 	</ItemGroup>
 
@@ -134,7 +134,7 @@
 		More details here: https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals#concurrent-garbage-collection-->
 		<ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
 		
-		<AssemblyName>MadbootNova.Web</AssemblyName>
+		<AssemblyName>Smartstore.Web</AssemblyName>
 	</PropertyGroup>
 
 </Project>

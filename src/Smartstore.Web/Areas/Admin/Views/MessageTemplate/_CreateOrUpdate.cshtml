@@ -227,7 +227,7 @@
 
         @if (modelTree.HasValue())
         {
-	        <text>MadbootNova.Admin.modelTrees["@Html.Raw(templateName)"] = @Html.Raw("JSON.parse('" + modelTree + "')"); </text>
+	        <text>Smartstore.Admin.modelTrees["@Html.Raw(templateName)"] = @Html.Raw("JSON.parse('" + modelTree + "')"); </text>
         }
 
         $("#template-edit").on('shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
