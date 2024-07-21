@@ -51,25 +51,25 @@
 
     <ItemGroup>
         <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-            <_Parameter1>MadbootNova.Tests</_Parameter1>
+            <_Parameter1>MadbootNovaMadbootNova.Tests</_Parameter1>
         </AssemblyAttribute>
         <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-            <_Parameter1>MadbootNova.Core.Tests</_Parameter1>
+            <_Parameter1>MadbootNovaMadbootNova.Core.Tests</_Parameter1>
         </AssemblyAttribute>
         <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-	        <_Parameter1>MadbootNova.Core</_Parameter1>
+	        <_Parameter1>MadbootNovaMadbootNova.Core</_Parameter1>
         </AssemblyAttribute>
         <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-	        <_Parameter1>MadbootNova.Web</_Parameter1>
+	        <_Parameter1>MadbootNovaMadbootNova.Web</_Parameter1>
         </AssemblyAttribute>
         <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-	        <_Parameter1>MadbootNova.Web.Common</_Parameter1>
+	        <_Parameter1>MadbootNovaMadbootNova.Web.Common</_Parameter1>
         </AssemblyAttribute>
         <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-            <_Parameter1>MadbootNova.MegaSearch.Tests</_Parameter1>
+            <_Parameter1>MadbootNovaMadbootNova.MegaSearch.Tests</_Parameter1>
         </AssemblyAttribute>
         <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-            <_Parameter1>MadbootNova.Azure.Tests</_Parameter1>
+            <_Parameter1>MadbootNovaMadbootNova.Azure.Tests</_Parameter1>
         </AssemblyAttribute>
     </ItemGroup>
 

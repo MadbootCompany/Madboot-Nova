@@ -3068,7 +3068,7 @@
 		<Value>Ihre Version</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.About">
-		<Value>Über Smartstore</Value>
+		<Value>Über MadbootNova</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Acl.AvailableFor.Hint">
 		<Value>Wählen Sie Kundengruppen, die auf den Datensatz zugreifen können. Bei allen nicht aktivierten Gruppen wird dieser Datensatz ausgeblendet.</Value>

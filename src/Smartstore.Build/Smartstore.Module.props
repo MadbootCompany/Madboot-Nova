@@ -9,7 +9,7 @@
 	<PropertyGroup>
 		<CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
 		<GenerateProvideApplicationPartFactoryAttribute>true</GenerateProvideApplicationPartFactoryAttribute>
-		<ProvideApplicationPartFactoryAttributeTypeName>Smartstore.Engine.Modularity.ApplicationParts.ModuleRazorAssemblyPartFactory, Smartstore</ProvideApplicationPartFactoryAttributeTypeName>
+		<ProvideApplicationPartFactoryAttributeTypeName>MadbootNova.Engine.Modularity.ApplicationParts.ModuleRazorAssemblyPartFactory, MadbootNova</ProvideApplicationPartFactoryAttributeTypeName>
 		<EnableDefaultContentItems>false</EnableDefaultContentItems>
 		<PreserveCompilationContext>false</PreserveCompilationContext>
 		<PreserveCompilationReferences>false</PreserveCompilationReferences>

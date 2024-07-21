@@ -21,7 +21,7 @@ namespace Smartstore.Core.OutputCache
         ///     <item>
         ///         Full page route pattern: <c>[{Module}/]{ControllerShortName}/{Action}</c>. Module must be omitted
         ///         if controller is part of the application core.
-        ///         Example: <c>Smartstore.Blog/Blog/List</c>, <c>Catalog/Category</c>
+        ///         Example: <c>MadbootNova.Blog/Blog/List</c>, <c>Catalog/Category</c>
         ///     </item>
         ///     <item>
         ///         View component route pattern: <c>vc:[{Module}/]{ComponentShortName}</c>. Module must be omitted
