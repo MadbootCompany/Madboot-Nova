@@ -142,7 +142,7 @@ namespace Smartstore
         }
 
         /// <summary>
-        /// Gets a list of Smartstore versions in which breaking changes occured,
+        /// Gets a list of MadbootNova versions in which breaking changes occured,
         /// which could lead to ´module malfunctioning.
         /// </summary>
         /// <remarks>

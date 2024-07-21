@@ -931,7 +931,7 @@
 		<Value>Der Partner wurde erfolgreich aktualisiert.</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.appnews">
-		<Value>Smartstore News</Value>
+		<Value>MadbootNova News</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.AppNews.HideAdv">
 		<Value>Werbung ausblenden</Value>
@@ -3044,7 +3044,7 @@
 		<Value>AutoUpdate möglich</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.CheckUpdate.AutoUpdatePossibleInfo">
-		<Value>&amp;lt;p&amp;gt;Dieses Update kann automatisch installiert werden. Hierfür lädt Smartstore ein Installationspaket auf Ihren Webserver herunter, führt die Installation durch und startet die Anwendung neu. Vor der Installation wird der Verzeichnisinhalt Ihres Shops gesichert, mit Ausnahme der Ordner &amp;lt;i&amp;gt;App_Data&amp;lt;/i&amp;gt; und &amp;lt;i&amp;gt;Media&amp;lt;/i&amp;gt; sowie der SQL Server Datenbank. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Klicken Sie die Schaltfläche &amp;lt;b&amp;gt;Jetzt aktualisieren&amp;lt;/b&amp;gt;, um das Paket downzuloaden und zu installieren. Alternativ hierzu können Sie weiter unten das Paket auf Ihren lokalen PC downloaden und die Installation zu einem späteren Zeitpunkt manuell durchführen.&amp;lt;/p&amp;gt;</Value>
+		<Value>&amp;lt;p&amp;gt;Dieses Update kann automatisch installiert werden. Hierfür lädt MadbootNova ein Installationspaket auf Ihren Webserver herunter, führt die Installation durch und startet die Anwendung neu. Vor der Installation wird der Verzeichnisinhalt Ihres Shops gesichert, mit Ausnahme der Ordner &amp;lt;i&amp;gt;App_Data&amp;lt;/i&amp;gt; und &amp;lt;i&amp;gt;Media&amp;lt;/i&amp;gt; sowie der SQL Server Datenbank. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Klicken Sie die Schaltfläche &amp;lt;b&amp;gt;Jetzt aktualisieren&amp;lt;/b&amp;gt;, um das Paket downzuloaden und zu installieren. Alternativ hierzu können Sie weiter unten das Paket auf Ihren lokalen PC downloaden und die Installation zu einem späteren Zeitpunkt manuell durchführen.&amp;lt;/p&amp;gt;</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.CheckUpdate.CurrentVersion">
 		<Value>Aktuelle Version</Value>
@@ -3053,7 +3053,7 @@
 		<Value>Nicht mehr benachrichtigen</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.CheckUpdate.IsUpToDate">
-		<Value>Smartstore ist auf dem neuesten Stand</Value>
+		<Value>MadbootNova ist auf dem neuesten Stand</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.CheckUpdate.ReleaseNotes">
 		<Value>Release Notes</Value>
@@ -5589,7 +5589,7 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.Privacy.Cookies.AdminInstruction">
 		<Value>&lt;p&gt;
-					Wenn Sie Skripte von Drittanbietern in Ihren Shop eingebunden haben, die Cookies nutzen und die nicht über ein Plugin in Smartstore integriert sind,
+					Wenn Sie Skripte von Drittanbietern in Ihren Shop eingebunden haben, die Cookies nutzen und die nicht über ein Plugin in MadbootNova integriert sind,
 					können Sie in folgender Tabelle eigene Informationen über diese Cookies für den Cookie-Manager bereitstellen.
 					Die zugefügten Informationen werden, dem Typ entsprechend, im Cookie-Manager des Frontends angezeigt.
 					Cookie-Informationen, die dem Cookie-Manager von aktiven Plugins zur Verfügung gestellt werden, werden in dieser Tabelle angezeigt,
@@ -10578,7 +10578,7 @@
 		<Value>Community</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Help.OtherWorkNote">
-		<Value>Smartstore beinhaltet Werke, die unter den unten aufgeführten Lizenzen vertrieben werden. Bitte beachten Sie die betreffenden Ressourcen für ausführlichere Informationen über Autoren, Copyright-Vermerke und Lizenzen.</Value>
+		<Value>MadbootNova beinhaltet Werke, die unter den unten aufgeführten Lizenzen vertrieben werden. Bitte beachten Sie die betreffenden Ressourcen für ausführlichere Informationen über Autoren, Copyright-Vermerke und Lizenzen.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Help.Topics">
 		<Value>Hilfe-Themen</Value>
@@ -11742,7 +11742,7 @@
 		<Value>Theme '{0}' wurde hochgeladen und erfolgreich installiert. Bitte laden Sie die Liste neu.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Packaging.IsIncompatible">
-		<Value>Das Paket ist nicht kompatibel mit der aktuellen Programmversion {0}. Bitte aktualisieren Sie Smartstore oder nutzen Sie eine andere, kompatible Paket-Version.</Value>
+		<Value>Das Paket ist nicht kompatibel mit der aktuellen Programmversion {0}. Bitte aktualisieren Sie MadbootNova oder nutzen Sie eine andere, kompatible Paket-Version.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Packaging.NotAModule">
 		<Value>Paket beinhaltet kein Plugin.</Value>
@@ -11775,7 +11775,7 @@
 		<Value>Theme hochladen</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.pagetitle">
-		<Value>Smartstore Administration</Value>
+		<Value>MadbootNova Administration</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Permissions.AddedPermissions">
 		<Value>Hinzugefügte Zugriffsrechte: {0}</Value>
@@ -13140,7 +13140,7 @@
 		<Value>Die Datenbank kann nicht wiederhergestellt werden, da der Daten-Provider '{0}' dies nicht unterstützt.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.Maintenance.DbBackup.RestoreVersionWarning">
-		<Value>Die Sicherung wurde mit einer anderen Smartstore Version erstellt. Eine Wiederherstellung kann zu unvorhersehbaren Problemen führen. Möchten Sie trotzdem fortfahren?</Value>
+		<Value>Die Sicherung wurde mit einer anderen MadbootNova Version erstellt. Eine Wiederherstellung kann zu unvorhersehbaren Problemen führen. Möchten Sie trotzdem fortfahren?</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.Maintenance.DbBackup.SameServerNote">
 		<Value>Sicherungen und Wiederherstellungen von Datenbanken sind nur möglich, wenn sich der Datenbankserver (z.B. MS SQL Server oder MySQL) und der physikalische Speicherort der Shop-Installation auf dem gleichen Server befinden.</Value>
@@ -13605,13 +13605,13 @@
 		<Value>Erstellt am</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.SystemInfo.AppDate.Hint">
-		<Value>Das Erstellungsdatum dieser Smartstore Version.</Value>
+		<Value>Das Erstellungsdatum dieser MadbootNova Version.</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.system.systeminfo.appversion">
-		<Value>Smartstore Version</Value>
+		<Value>MadbootNova Version</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.system.systeminfo.appversion.hint">
-		<Value>Smartstore Version</Value>
+		<Value>MadbootNova Version</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.SystemInfo.ASPNETInfo">
 		<Value>ASP.NET Info</Value>
@@ -13809,7 +13809,7 @@
 		<Value>Eine Steuerklasse mit diesem Namen existiert bereits. Bitte wählen Sie einen anderen Namen.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Theme.GoogleFonts.Gdpr.Hint">
-		<Value>Bitte beachten Sie, dass der Einsatz von Google Fonts ohne lokale Einbindung laut Urteil vom LG München (20.01.2022, Az. 3 O 17493/20) gegen die DSGVO verstößt. Bitte informieren Sie sich über die aktuelle Rechtslage, bevor Sie Web Fonts einsetzen. Smartstore übernimmt keinerlei Haftung.</Value>
+		<Value>Bitte beachten Sie, dass der Einsatz von Google Fonts ohne lokale Einbindung laut Urteil vom LG München (20.01.2022, Az. 3 O 17493/20) gegen die DSGVO verstößt. Bitte informieren Sie sich über die aktuelle Rechtslage, bevor Sie Web Fonts einsetzen. MadbootNova übernimmt keinerlei Haftung.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Theme.GoogleFonts.Hint">
 		<Value>&lt;p&gt;Um &lt;b&gt;Google Fonts&lt;/b&gt; einzubinden, beachten Sie bitte die nachfolgende Anweisung.&lt;/p&gt;

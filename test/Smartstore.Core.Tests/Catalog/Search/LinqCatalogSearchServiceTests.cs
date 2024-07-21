@@ -151,7 +151,7 @@ namespace Smartstore.Core.Tests.Catalog.Search
             {
                 translations = new List<LocalizedProperty>
                 {
-                    new() { LocaleKeyGroup = "Product", LocaleKey = "Name", EntityId = 5, LocaleValue = "Holisticly leadership extensible for Smartstore pontificate.", LanguageId = languageId }
+                    new() { LocaleKeyGroup = "Product", LocaleKey = "Name", EntityId = 5, LocaleValue = "Holisticly leadership extensible for MadbootNova pontificate.", LanguageId = languageId }
                 };
             }
 

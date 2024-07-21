@@ -10,7 +10,7 @@ namespace Smartstore.Engine
     public interface IEngineStarter : IDisposable
     {
         /// <summary>
-        /// Smartstore configuration
+        /// MadbootNova configuration
         /// </summary>
         SmartConfiguration AppConfiguration { get; }
 

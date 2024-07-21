@@ -1,5 +1,5 @@
 ﻿/*
-*  Project: Smartstore entity picker
+*  Project: MadbootNova entity picker
 *  Author: Marcus Gesing, SmartStore AG
 */
 

@@ -1,5 +1,5 @@
 ﻿/*
- * Author: Murat Cakir, Smartstore AG
+ * Author: Murat Cakir, MadbootNova AG
  */
 
 ; (function ($) {

@@ -42,7 +42,7 @@ namespace Smartstore.PayPal.Models
         }
 
         /// <summary>
-        /// Holds the systemname of Smartstore payment provider.
+        /// Holds the systemname of MadbootNova payment provider.
         /// </summary>
         public string ApmProviderSystemName
         {

@@ -29,7 +29,7 @@ namespace Smartstore.Web.Api.Models.Catalog
         public AttributeControlType ControlType { get; set; } = AttributeControlType.DropdownList;
 
         /// <summary>
-        /// Any custom data. It's not used by Smartstore but is being passed to the choice partial view.
+        /// Any custom data. It's not used by MadbootNova but is being passed to the choice partial view.
         /// </summary>
         [DataMember(Name = "customData")]
         public string CustomData { get; set; }

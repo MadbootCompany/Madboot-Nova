@@ -384,7 +384,7 @@ namespace Smartstore.StripeElements.Controllers
             {
                 var signatureHeader = Request.Headers["Stripe-Signature"];
 
-                // INFO: There should never be a version mismatch, as long as the hook was created in Smartstore backend.
+                // INFO: There should never be a version mismatch, as long as the hook was created in MadbootNova backend.
                 // But to keep even more stable we don't throw an exception on API version mismatch.
                 var stripeEvent = EventUtility.ParseEvent(json, false);
                 stripeEvent = EventUtility.ConstructEvent(json, signatureHeader, endpointSecret, throwOnApiVersionMismatch: false);

@@ -1,5 +1,5 @@
 ﻿/*
-*  Project: Smartstore menu
+*  Project: MadbootNova menu
 *  Author: Murat Cakir, SmartStore AG
 */
 

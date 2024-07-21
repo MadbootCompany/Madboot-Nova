@@ -354,8 +354,8 @@ namespace Smartstore.Core.Data.Migrations
                 "Datenbank aus dieser Sicherungsdatei (Backup) wiederherstellen.");
 
             builder.AddOrUpdate("Admin.System.Maintenance.DbBackup.RestoreVersionWarning",
-                "The backup was created with a different Smartstore version. Restoring it may cause unpredictable issues. Do you still want to proceed?",
-                "Die Sicherung wurde mit einer anderen Smartstore Version erstellt. Eine Wiederherstellung kann zu unvorhersehbaren Problemen führen. Möchten Sie trotzdem fortfahren?");
+                "The backup was created with a different MadbootNova version. Restoring it may cause unpredictable issues. Do you still want to proceed?",
+                "Die Sicherung wurde mit einer anderen MadbootNova Version erstellt. Eine Wiederherstellung kann zu unvorhersehbaren Problemen führen. Möchten Sie trotzdem fortfahren?");
 
             builder.AddOrUpdate("Admin.System.Maintenance.DbBackup.InvalidBackup",
                 "The file \"{0}\" is not a valid database backup. The file name must have the format [database name]-[version]-[timestamp].",
@@ -915,7 +915,7 @@ namespace Smartstore.Core.Data.Migrations
 
                     if (map.TryGetValue(key, out var newName))
                     {
-                        // We don't update, but add new entries to keep Smartstore classic projects intact.
+                        // We don't update, but add new entries to keep MadbootNova classic projects intact.
                         toAdd.Add(new LocaleStringResource
                         {
                             ResourceName = $"Enums.{newName}.{lastPart}",

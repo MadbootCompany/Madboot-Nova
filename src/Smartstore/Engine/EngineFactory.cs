@@ -5,7 +5,7 @@ namespace Smartstore.Engine
     public static class EngineFactory
     {
         /// <summary>
-        /// Creates a static instance of the Smartstore engine.
+        /// Creates a static instance of the MadbootNova engine.
         /// </summary>
         [MethodImpl(MethodImplOptions.Synchronized)]
         public static IEngine Create(SmartConfiguration configuration)

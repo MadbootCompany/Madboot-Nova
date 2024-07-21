@@ -65,8 +65,8 @@ namespace Smartstore.Web.Api
                     o.SwaggerDoc(name + '1', new()
                     {
                         Version = $"{humanized} 1",
-                        Title = "Smartstore Web API - " + humanized,
-                        Description = $"A reference of all endpoints of the Smartstore Web API section **{humanized}**."
+                        Title = "MadbootNova Web API - " + humanized,
+                        Description = $"A reference of all endpoints of the MadbootNova Web API section **{humanized}**."
                     });
                 }
 

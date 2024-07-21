@@ -1,5 +1,5 @@
 ﻿/*
-*  Project: Smartstore ajax wrapper
+*  Project: MadbootNova ajax wrapper
 *  Author: Marcus Gesing, SmartStore AG
 */
 

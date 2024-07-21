@@ -3,14 +3,14 @@
 namespace Smartstore.Engine
 {
     /// <summary>
-    /// Provides access to the singleton instance of the Smartstore engine.
+    /// Provides access to the singleton instance of the MadbootNova engine.
     /// </summary>
     public class EngineContext
     {
         private static IEngine _instance;
 
         /// <summary>
-        /// Gets the singleton Smartstore engine used to access Smartstore services.
+        /// Gets the singleton MadbootNova engine used to access MadbootNova services.
         /// </summary>
         public static IEngine Current
         {

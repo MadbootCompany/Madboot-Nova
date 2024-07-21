@@ -37,14 +37,14 @@ namespace Smartstore.Core.Bootstrapping
         }
 
         /// <summary>
-        /// Adds X-Powered-By Smartstore HTTP header.
+        /// Adds X-Powered-By MadbootNova HTTP header.
         /// </summary>
         public static IApplicationBuilder UsePoweredBy(this IApplicationBuilder app)
         {
             return app.Use(async (context, next) =>
             {
                 // Add X-Powered-By header
-                context.Response.Headers["X-Powered-By"] = $"Smartstore {SmartstoreVersion.CurrentVersion}";
+                context.Response.Headers["X-Powered-By"] = $"MadbootNova {SmartstoreVersion.CurrentVersion}";
                 await next(context);
             });
         }

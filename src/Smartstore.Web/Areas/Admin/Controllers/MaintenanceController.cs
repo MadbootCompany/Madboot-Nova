@@ -355,7 +355,7 @@ namespace Smartstore.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> ClearCache()
         {
-            // Clear Smartstore inbuilt cache
+            // Clear MadbootNova inbuilt cache
             await Services.Cache.ClearAsync();
 
             // Clear IMemoryCache Smartstore: region
@@ -1036,14 +1036,14 @@ namespace Smartstore.Admin.Controllers
         #region Utils
 
         ///// <summary>
-        ///// Counts the byte size of all objects in both IMemoryCache and Smartstore memory cache
+        ///// Counts the byte size of all objects in both IMemoryCache and MadbootNova memory cache
         ///// </summary>
         //private long GetMemCacheBytes()
         //{
         //    // System memory cache
         //    var size = 0L; // GetObjectSize(_memCache);
 
-        //    // Smartstore memory cache
+        //    // MadbootNova memory cache
         //    var cache = Services.CacheFactory.GetMemoryCache();
         //    size += GetObjectSize(cache);
 

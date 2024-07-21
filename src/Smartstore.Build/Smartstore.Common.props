@@ -13,9 +13,9 @@
 
     <PropertyGroup>
 		<Product>Smartstore</Product>
-		<Copyright>Copyright © Smartstore AG</Copyright>
-		<Company>Smartstore AG</Company>
-		<Authors>Smartstore AG</Authors>
+		<Copyright>Copyright © MadbootNova AG</Copyright>
+		<Company>MadbootNova AG</Company>
+		<Authors>MadbootNova AG</Authors>
 		<Version>5.1.0.0</Version>
 		<FileVersion>5.1.0.0</FileVersion>
 		<InformationalVersion>5.1.0.0</InformationalVersion>

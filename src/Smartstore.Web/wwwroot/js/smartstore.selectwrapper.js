@@ -1,5 +1,5 @@
 ﻿/*
-*  Project: Smartstore select wrapper
+*  Project: MadbootNova select wrapper
 *  Author: Murat Cakir, SmartStore AG
 */
 

@@ -2,7 +2,7 @@
 {
     /// <summary>
     /// Captures either a portion or the full authorized amount of an authorized payment.
-    /// Smartstore doesn't support partial capturing. The only purpuse of this object is to transmit the invoice id.
+    /// MadbootNova doesn't support partial capturing. The only purpuse of this object is to transmit the invoice id.
     /// </summary>
     public class CaptureMessage
     {

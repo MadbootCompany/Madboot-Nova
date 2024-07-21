@@ -2,7 +2,7 @@
   "$schema": "../module.schema.json",
   "Group": "Developer",
   "SystemName": "Smartstore.DevTools",
-  "FriendlyName": "Smartstore Developer Tools (MiniProfiler and other goodies)",
+  "FriendlyName": "MadbootNova Developer Tools (MiniProfiler and other goodies)",
   "Description": "",
   "Version": "5.1.0",
   "MinAppVersion": "5.1.0",

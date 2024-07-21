@@ -5,8 +5,8 @@ namespace Smartstore.Engine
 {
     /// <summary>
     /// Classes implementing this interface can serve as a portal for the 
-    /// various services composing the Smartstore engine. Edit functionality, modules
-    /// and implementations access most Smartstore functionality through this 
+    /// various services composing the MadbootNova engine. Edit functionality, modules
+    /// and implementations access most MadbootNova functionality through this 
     /// interface.
     /// </summary>
     public interface IEngine

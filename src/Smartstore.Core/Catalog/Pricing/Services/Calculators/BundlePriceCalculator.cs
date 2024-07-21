@@ -60,7 +60,7 @@ namespace Smartstore.Core.Catalog.Pricing.Calculators
                     // virtual stub discounts (<see cref="DiscountPriceCalculator"/> and <see cref="ProductBundleItem.Discount"/>).
                     context.DiscountAmount += decimal.Multiply(childCalculation.DiscountAmount, bundleItem.Quantity);
 
-                    // TODO: (mg) (core) Is it not better to continue the pipeline here (unlike in Smartstore classic)? Continuation could
+                    // TODO: (mg) (core) Is it not better to continue the pipeline here (unlike in MadbootNova classic)? Continuation could
                     // apply OfferPrice and/or further discounts to the automatically calculated final price here. TBD with MC please.
                 }
             }

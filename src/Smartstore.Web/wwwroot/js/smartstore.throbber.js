@@ -1,5 +1,5 @@
 ﻿/*
-*  Project: Smartstore Throbber
+*  Project: MadbootNova Throbber
 *  Author: Murat Cakir, SmartStore AG
 */
 

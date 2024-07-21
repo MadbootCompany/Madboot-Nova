@@ -212,7 +212,7 @@ Logger SetupSerilog(IConfiguration configuration)
                 rollingInterval: RollingInterval.Day,
                 flushToDiskInterval: TimeSpan.FromSeconds(5));
         }))
-        // Build FILE logger (also replaces the Smartstore classic "TraceLogger")
+        // Build FILE logger (also replaces the MadbootNova classic "TraceLogger")
         .WriteTo.Logger(logger =>
         {
             logger

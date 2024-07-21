@@ -27,7 +27,7 @@
             => userAgent.Device.Type is UserAgentDeviceType.Tablet;
 
         /// <summary>
-        /// Checks whether agent is the Smartstore application itself.
+        /// Checks whether agent is the MadbootNova application itself.
         /// </summary>
         public static bool IsApplication(this IUserAgent userAgent) 
             => userAgent.Type == UserAgentType.Application;

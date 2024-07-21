@@ -33,7 +33,7 @@ namespace Smartstore.Engine
         ILogger Logger { get; }
 
         /// <summary>
-        /// Main Smartstore application configuration.
+        /// Main MadbootNova application configuration.
         /// </summary>
         SmartConfiguration AppConfiguration { get; }
 

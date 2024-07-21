@@ -233,7 +233,7 @@ namespace Smartstore.Core.Data.Migrations
             builder.Delete("Enums.CookieConsentRequirement.Disabled");
             builder.AddOrUpdate("Enums.CookieConsentRequirement.NeverRequired", "Never required", "Nie erforderlich");
 
-            builder.AddOrUpdate("Admin.System.SystemInfo.AppVersion", "Smartstore version", "Smartstore Version");
+            builder.AddOrUpdate("Admin.System.SystemInfo.AppVersion", "MadbootNova version", "MadbootNova Version");
 
             builder.AddOrUpdate("Products.ToFilterAndSort", "Filter & Sort", "Filtern & Sortieren");
             builder.AddOrUpdate("Admin.Common.SaveClose", "Save & close", "Speichern & schließen");

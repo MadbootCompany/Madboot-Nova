@@ -72,7 +72,7 @@ namespace Smartstore.Core.Catalog.Attributes
 
         /// <summary>
         /// Gets or sets any custom data.
-        /// It's not used by Smartstore but is being passed to the choice partial view.
+        /// It's not used by MadbootNova but is being passed to the choice partial view.
         /// </summary>
         [MaxLength]
         public string CustomData { get; set; }

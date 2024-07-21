@@ -1,4 +1,4 @@
-﻿The Smartstore Web API allows direct access to the data of an online store. It is built on the most recent 
+﻿The MadbootNova Web API allows direct access to the data of an online store. It is built on the most recent 
 technologies Microsoft offers for web based data consuming, the **ASP.NET Core Web API** and the **OData** provider. 
 
 The Web API module provides interactive documentation using **Swagger API help**. It is capable to send test 

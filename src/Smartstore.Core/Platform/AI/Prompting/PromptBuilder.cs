@@ -270,13 +270,13 @@ namespace Smartstore.Core.Platform.AI.Prompting
             promptParts.Add(forPromptPart);
 
             // TODO: (mh) (ai) Längsten Shopnamen ermitteln und Zeichenlänge in die Anweisung einfügen.
-            // INFO: Der Name des Shops wird von Smartstore automatisch dem Title zugefügt. 
+            // INFO: Der Name des Shops wird von MadbootNova automatisch dem Title zugefügt. 
             // TODO: (mh) (ai) Ausfürlich mit allen Entitäten testen.
             // Das Original mit dem auf der Produktdetailseite getestet wurde war:
             //forPromptPart += " Verwende dabei nicht den Namen des Shops. Der wird von der Webseite automatisch zugefügt. Reserviere dafür 5 Worte.";
             promptParts.Add(Resources.ReserveSpaceForShopName());
 
-            // INFO: Smartstore automatically adds inverted commas to the title.
+            // INFO: MadbootNova automatically adds inverted commas to the title.
             promptParts.Add(Resources.DontUseQuotes());
         }
 
@@ -305,7 +305,7 @@ namespace Smartstore.Core.Platform.AI.Prompting
             promptParts.Add(forPromptPart);
             promptParts.Add(Resources.SeparateListWithComma());
 
-            // Respect Smartstore database scheme limitation. Limit is 400.
+            // Respect MadbootNova database scheme limitation. Limit is 400.
             promptParts.Add(Resources.CharLimit(400));
         }
 

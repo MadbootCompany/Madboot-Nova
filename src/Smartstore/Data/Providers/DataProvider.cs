@@ -826,7 +826,7 @@ namespace Smartstore.Data.Providers
 
         /// <summary>
         /// Creates a file name for a database backup with the format:
-        /// {database name}-{Smartstore version}-{timestamp}{<see cref="BackupFileExtension"/>}
+        /// {database name}-{MadbootNova version}-{timestamp}{<see cref="BackupFileExtension"/>}
         /// </summary>
         public virtual string CreateBackupFileName()
         {

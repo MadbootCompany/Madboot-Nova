@@ -72,7 +72,7 @@ namespace Smartstore.Core.Identity
                 // Check if the user has a consent cookie.
                 var consentCookie = request.Cookies[CookieNames.CookieConsent];
 
-                // Try fetch cookie from pre Smartstore 5.0.0
+                // Try fetch cookie from pre MadbootNova 5.0.0
                 if (consentCookie == null)
                 {
                     consentCookie = request.Cookies["CookieConsent"];
@@ -119,7 +119,7 @@ namespace Smartstore.Core.Identity
 
                     if (cookieData == null)
                     {
-                        // Cookie was found but could not be converted thus it's a pre Smartstore 3 legacy cookie.
+                        // Cookie was found but could not be converted thus it's a pre MadbootNova 3 legacy cookie.
                         isLegacy = true;
                         var str = consentCookie;
 
@@ -140,7 +140,7 @@ namespace Smartstore.Core.Identity
                     }
                     else if (hasLegacyName)
                     {
-                        // Cookie was found with old name and could be converted thus it's a pre Smartstore 5 and after Smartstore 3 legacy cookie. So let's rename it.
+                        // Cookie was found with old name and could be converted thus it's a pre MadbootNova 5 and after MadbootNova 3 legacy cookie. So let's rename it.
                         // Remove legacy cookie 
                         response.Cookies.Delete("CookieConsent");
                         // Add again with new name

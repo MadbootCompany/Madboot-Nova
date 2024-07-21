@@ -725,7 +725,7 @@ namespace Smartstore.PayPal.Client
                 await HandleAuthorizationAsync(request, settings);
             }
 
-            // Identifier for PayPal. Please don't change to correct name Smartstore (with the second s small). It's depositied at PayPal and they can't change it.
+            // Identifier for PayPal. Please don't change to correct name MadbootNova (with the second s small). It's depositied at PayPal and they can't change it.
             request.Headers.Add("PayPal-Partner-Attribution-Id", "SmartStore_Cart_PPCP");
 
             var response = await _client.SendAsync(request, cancelToken);
@@ -871,7 +871,7 @@ namespace Smartstore.PayPal.Client
         //        {
         //            Name = billingPlanName,
         //            Description = billingPlanName,
-        //            Type = "FIXED"  // Smartstore doesn't support infinite cycles
+        //            Type = "FIXED"  // MadbootNova doesn't support infinite cycles
         //        };
 
         //        var paymentDefinition = new PaymentDefinition

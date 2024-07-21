@@ -940,7 +940,7 @@
 		<Value>The affiliate has been updated successfully.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.AppNews">
-		<Value>Smartstore News</Value>
+		<Value>MadbootNova News</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.AppNews.HideAdv">
 		<Value>Hide advertisements</Value>
@@ -3134,7 +3134,7 @@
 		<Value>AutoUpdate possible</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.CheckUpdate.AutoUpdatePossibleInfo">
-		<Value>&amp;lt;p&amp;gt;This update can be installed automatically. For this Smartstore downloads an installation package to your webserver, executes it and restarts the application. Before the installation your shop directory is backed up, except the folders &amp;lt;i&amp;gt;App_Data&amp;lt;/i&amp;gt; and &amp;lt;i&amp;gt;Media&amp;lt;/i&amp;gt;, as well as the SQL Server database file. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Click the &amp;lt;b&amp;gt;Update now&amp;lt;/b&amp;gt; button to download and install the package. As an alternative to this, you can download the package to your local PC further below and perform the installation at a later time manually.&amp;lt;/p&amp;gt;</Value>
+		<Value>&amp;lt;p&amp;gt;This update can be installed automatically. For this MadbootNova downloads an installation package to your webserver, executes it and restarts the application. Before the installation your shop directory is backed up, except the folders &amp;lt;i&amp;gt;App_Data&amp;lt;/i&amp;gt; and &amp;lt;i&amp;gt;Media&amp;lt;/i&amp;gt;, as well as the SQL Server database file. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Click the &amp;lt;b&amp;gt;Update now&amp;lt;/b&amp;gt; button to download and install the package. As an alternative to this, you can download the package to your local PC further below and perform the installation at a later time manually.&amp;lt;/p&amp;gt;</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.CheckUpdate.CurrentVersion">
 		<Value>Current version</Value>
@@ -3143,7 +3143,7 @@
 		<Value>Don't notify anymore</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.CheckUpdate.IsUpToDate">
-		<Value>Smartstore is up to date</Value>
+		<Value>MadbootNova is up to date</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.CheckUpdate.ReleaseNotes">
 		<Value>Release Notes</Value>
@@ -4568,7 +4568,7 @@
 		<Value>Install or update plugins</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.configuration.plugins.description.step1">
-		<Value>Use the &lt;a id='{0}' href='{1}' data-toggle='modal'&gt;package uploader&lt;/a&gt; or upload the plugin manually - eg. via FTP - to the &lt;i&gt;/Modules&lt;/i&gt; folder in your Smartstore directory.</Value>
+		<Value>Use the &lt;a id='{0}' href='{1}' data-toggle='modal'&gt;package uploader&lt;/a&gt; or upload the plugin manually - eg. via FTP - to the &lt;i&gt;/Modules&lt;/i&gt; folder in your MadbootNova directory.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Plugins.Description.Step2">
 		<Value>With manual uploads: restart your application (or click &lt;i&gt;Reload list of plugins&lt;/i&gt; button).</Value>
@@ -5745,7 +5745,7 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.Privacy.Cookies.AdminInstruction">
 		<Value>&lt;p&gt;
-					If you have included third-party scripts in your shop that use cookies and are not integrated into Smartstore via a plugin,
+					If you have included third-party scripts in your shop that use cookies and are not integrated into MadbootNova via a plugin,
 					you can provide your own information about these cookies for the Cookie Manager in the following table.
 					The added information is displayed in the Cookie Manager of the front end, corresponding to the type.
 					Cookie information provided to the Cookie Manager by active plug-ins is displayed in this table,
@@ -10833,7 +10833,7 @@
 		<Value>Community</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Help.OtherWorkNote">
-		<Value>Smartstore includes works distributed under the licenses listed below. Please refer to the specific resources for more detailed information about the authors, copyright notices and licenses.</Value>
+		<Value>MadbootNova includes works distributed under the licenses listed below. Please refer to the specific resources for more detailed information about the authors, copyright notices and licenses.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Help.Topics">
 		<Value>Help topics</Value>
@@ -12021,7 +12021,7 @@
 		<Value>Theme '{0}' was uploaded and installed successfully. Please reload the list.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Packaging.IsIncompatible">
-		<Value>The package is not compatible the current app version {0}. Please update Smartstore or install another version of this package.</Value>
+		<Value>The package is not compatible the current app version {0}. Please update MadbootNova or install another version of this package.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Packaging.NotAModule">
 		<Value>Package does not contain a plugin.</Value>
@@ -12054,7 +12054,7 @@
 		<Value>Upload theme</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.pagetitle">
-		<Value>Smartstore administration</Value>
+		<Value>MadbootNova administration</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Permissions.AddedPermissions">
 		<Value>Added permissions: {0}</Value>
@@ -13452,7 +13452,7 @@
 		<Value>The database cannot be restored because the data provider '{0}' does not support this.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.Maintenance.DbBackup.RestoreVersionWarning">
-		<Value>The backup was created with a different Smartstore version. Restoring it may cause unpredictable issues. Do you still want to proceed?</Value>
+		<Value>The backup was created with a different MadbootNova version. Restoring it may cause unpredictable issues. Do you still want to proceed?</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.Maintenance.DbBackup.SameServerNote">
 		<Value>Backing up and restoring databases is only possible if the database server (e.g. MS SQL Server or MySQL) and the physical location of the store installation are on the same server.</Value>
@@ -13923,13 +13923,13 @@
 		<Value>Created on</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.SystemInfo.AppDate.Hint">
-		<Value>The creation date of this Smartstore version.</Value>
+		<Value>The creation date of this MadbootNova version.</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.system.systeminfo.appversion">
-		<Value>Smartstore version</Value>
+		<Value>MadbootNova version</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.system.systeminfo.appversion.hint">
-		<Value>Smartstore version</Value>
+		<Value>MadbootNova version</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.SystemInfo.ASPNETInfo">
 		<Value>ASP.NET info</Value>
@@ -14091,7 +14091,7 @@
 		<Value>The '{0}' account is not granted with Modify permission on file '{1}'. Please configure these permissions.</Value>
 	</LocaleResource>
 	<LocaleResource Name="admin.system.warnings.incompatibleplugin">
-		<Value>'{0}' plugin is incompatible with your Smartstore version. Delete it or update to the latest version.</Value>
+		<Value>'{0}' plugin is incompatible with your MadbootNova version. Delete it or update to the latest version.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.System.Warnings.NoPermissionsDefined">
 		<Value>There are no permissions defined.</Value>
@@ -14157,7 +14157,7 @@
 		<Value>Bold</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Theme.GoogleFonts.Gdpr.Hint">
-		<Value>Please note that the use of Google Fonts without local upload violates the EU GDPR according to a ruling of the LG Munich (20.01.2022, Az. 3 O 17493/20). Please inform yourself about the current legal situation before using web fonts. Smartstore is not liable for any possible consequences.</Value>
+		<Value>Please note that the use of Google Fonts without local upload violates the EU GDPR according to a ruling of the LG Munich (20.01.2022, Az. 3 O 17493/20). Please inform yourself about the current legal situation before using web fonts. MadbootNova is not liable for any possible consequences.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Theme.GoogleFonts.Hint">
 		<Value>&lt;p&gt;To embed &lt;b&gt;Google Fonts&lt;/b&gt; please not the following advices.&lt;/p&gt;

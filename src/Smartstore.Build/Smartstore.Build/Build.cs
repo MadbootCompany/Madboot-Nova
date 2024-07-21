@@ -110,7 +110,7 @@ class Build : NukeBuild
                 EnsureCleanDirectory(outputDir);
             }
 
-            Log.Information($"Publishing Smartstore {publishName}...");
+            Log.Information($"Publishing MadbootNova {publishName}...");
 
             DotNetPublish(s => s
                 .SetProject("src/Smartstore.Web/Smartstore.Web.csproj")

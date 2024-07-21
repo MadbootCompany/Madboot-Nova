@@ -1,5 +1,5 @@
 ﻿/*
-*  Project: Smartstore tree.
+*  Project: MadbootNova tree.
 *  Author: Marcus Gesing, SmartStore AG.
 */
 (function ($, window, document, undefined) {

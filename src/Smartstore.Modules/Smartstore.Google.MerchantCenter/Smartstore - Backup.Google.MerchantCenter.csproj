@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 	<PropertyGroup>
-		<Product>MadbootNova Google MerchantCenter</Product>
+		<Product>MadbootNovaMadbootNova Google MerchantCenter</Product>
 		<OutputPath>..\..\Smartstore.Web\Modules\Smartstore.Google.MerchantCenter</OutputPath>
 		<OutDir>$(OutputPath)</OutDir>
 	</PropertyGroup>

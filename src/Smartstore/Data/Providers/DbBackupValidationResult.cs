@@ -21,7 +21,7 @@
         public string Name { get; }
 
         /// <summary>
-        /// The Smartstore version under which the backup was created.
+        /// The MadbootNova version under which the backup was created.
         /// </summary>
         public Version Version { get; init; }
 
@@ -31,7 +31,7 @@
         public DateTime Timestamp { get; init; }
 
         /// <summary>
-        /// A value indicating whether the backup version matches current Smartstore version.
+        /// A value indicating whether the backup version matches current MadbootNova version.
         /// </summary>
         public bool MatchesCurrentVersion
             => Version != null && Version == SmartstoreVersion.Version;

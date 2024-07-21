@@ -1,5 +1,5 @@
 ﻿/*
-*  Project: Smartstore Article List
+*  Project: MadbootNova Article List
 *  Author: Murat Cakir, SmartStore AG
 */
 
