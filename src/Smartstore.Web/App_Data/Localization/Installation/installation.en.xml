@@ -57,7 +57,7 @@
         <Value>Install</Value>
     </LocaleResource>
     <LocaleResource Name="Installing">
-        <Value>Installing Smartstore...</Value>
+        <Value>Installing MadbootNova...</Value>
     </LocaleResource>
     <LocaleResource Name="PasswordsDoNotMatch">
         <Value>The passwords do not match</Value>
